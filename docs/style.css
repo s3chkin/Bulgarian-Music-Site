@@ -1,0 +1,123 @@
+body {
+    display: flex;
+}
+
+.hero {
+    width: 100%;
+    height: 98.5vh;
+    background-image: url("./images/background5.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.songName {
+    color: white;
+}
+
+#msg {
+    color: tomato;
+}
+
+.left h1 {
+    padding: 85px;
+    font-size: 90px;
+    color: azure;
+    line-height: 110px;
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 10%;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+#icon2 #icon3 #icon4 #icon5 {
+    cursor: pointer;
+}
+
+#controls {
+    margin-top: 623px;
+    /* padding-right: 300px; */
+}
+
+.active {
+    /* background-color: lightpink; */
+    opacity: 0.3;
+    cursor: default;
+}
+
+.newBody {
+    /* background-image: url("./images/background5.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: height 800px;
+    background-size: cover; */
+    background-color: lightpink;
+}
+
+.imgButton {
+    float: left;
+    margin: 32px;
+    cursor: pointer;
+}
+
+.imgButton :hover {
+    opacity: 0.7;
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#mysong2 {
+    float: left;
+    margin: 50px;
+}
