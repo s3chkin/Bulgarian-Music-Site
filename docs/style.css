@@ -16,7 +16,7 @@ body {
 .navbar {
     width: 88%;
     margin: auto;
-    padding: 15px 0;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,6 +78,11 @@ body {
     cursor: pointer;
 }
 
+#icon1 {
+    width: 80px;
+    cursor: pointer;
+}
+
 #icon2 #icon3 #icon4 #icon5 {
     cursor: pointer;
 }
@@ -111,13 +116,90 @@ body {
 
 .imgButton :hover {
     opacity: 0.7;
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
+    color: rgb(122, 116, 61);
+    /* background-color: #1A1A1A; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    /* transform: translateY(-2px); */
 }
 
 #mysong2 {
     float: left;
     margin: 50px;
+}
+
+#contact-reklam {
+    color: rgb(80, 70, 71);
+}
+
+#contact-form {
+    background-color: rgb(255, 247, 248);
+    border-style: dotted;
+    border-color: lightcyan;
+    border-width: 3px;
+    width: 650px;
+    height: 350px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    padding-top: 80px;
+}
+
+#boxes {
+    padding-top: 6px;
+    margin-left: 8px;
+}
+
+#text-box {
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+    border-color: lightcoral;
+    border-width: 1.5px;
+}
+
+#text-box:hover {
+    background-color: rgb(228, 226, 226);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#text-box4 {
+    border-radius: 12px;
+    height: 190px;
+    width: 350px;
+    border-width: 1.5px;
+    border-color: lightcoral;
+}
+
+#message {
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
+#text-box4:hover {
+    background-color: rgb(228, 226, 226);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#send-btn {
+    border-radius: 20px;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+}
+
+#button {
+    padding-top: 25px;
+    margin-left: 280px;
+}
+
+#send-btn:hover {
+    background-color: lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
 }

@@ -8,6 +8,7 @@
     <title>Music</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<script src="http://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 <body>
     <div class="hero">
@@ -17,12 +18,43 @@
             <ul>
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="bgMusic.html"> BG Music</a></li>
-                <li><a href="album.html"> Album</a></li>
+                <li><a href="album.html">Album</a></li>
                 <li><a href="contact.html" class="active"> Contact</a></li>
-
             </ul>
         </div>
-        <i> <h1 align="center">В ПРОЦЕС НА ОБРАБОТКА</h1></i>
+        <i>
+            <h1 align="center" id="contact-reklam">Изготвил: Сечкин Салим Рахим 11А клас.</h1>
+        </i>
+        <i>
+            <h1 align="center" id="contact-reklam">Instagram: <a
+                    href="https://www.instagram.com/__sechkin__/">instagram</a></h1>
+        </i>
+        <i>
+            <h1 align="center" id="contact-reklam">GitHub: <a href="https://github.com/s3chkin">GitHub</a></h1>
+        </i>
+
+        <div id="contact">
+            <div id="contact-form">
+                <div id="boxes">
+
+                    <input type="text" id="text-box" placeholder="Собствено име">
+                    <input type="text" id="text-box" placeholder="Фамилно име">
+                    <input type="text" id="text-box" placeholder="E-mail">
+                </div>
+                <div id="message">
+                    <input type="text" id="text-box4" placeholder="Въведете съобщение">
+                </div>
+
+                <div id="button">
+                    <a href="contact.html">
+                        <main id="app">
+                            <button id="send-btn" @mouseleave="inform(`Съобщението е изпратено!`)">
+                                Изпрати</button>
+                        </main>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
@@ -31,3 +63,16 @@
 
 </html>
 <script src="main.js "></script>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        methods: {
+            inform: function(msg) {
+                alert(msg);
+            }
+        }
+    })
+</script>
+
+</html>
