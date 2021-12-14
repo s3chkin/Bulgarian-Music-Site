@@ -1,0 +1,25 @@
+#body2 {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("./images/annie-spratt-EmHXM2YUd7Q-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.newBody2 {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.active {
+    background-color: lightpink;
+    opacity: 0.3;
+    cursor: default;
+}
