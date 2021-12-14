@@ -35,6 +35,10 @@ body {
     font-size: 30px;
 }
 
+.navbar-1:hover {
+    background-color: rgb(244, 246, 248);
+}
+
 .navbar ul li {
     list-style: none;
     display: inline-block;
@@ -105,7 +109,7 @@ body {
 }
 
 .active {
-    background-color: rgb(6, 145, 145);
+    background-color: rgb(252, 252, 252);
     opacity: 0.3;
     cursor: default;
 }
