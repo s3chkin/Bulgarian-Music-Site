@@ -1,4 +1,10 @@
-/* body {} */
+body {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 .hero {
     width: 100%;
@@ -11,6 +17,7 @@
     background-attachment: fixed;
     max-width: 100%;
     min-width: 100%;
+    align-items: center;
 }
 
 .navbar {
@@ -99,12 +106,13 @@
 }
 
 .newBody {
-    background-color: lightpink;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .imgButton {
     float: left;
-    margin: 25px;
+    margin: 48px;
     cursor: pointer;
 }
 
