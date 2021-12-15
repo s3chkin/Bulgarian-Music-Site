@@ -115,14 +115,17 @@ body {
 }
 
 .newBody {
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
+    padding-top: 25px;
 }
 
 .imgButton {
     float: left;
     margin: 48px;
     cursor: pointer;
+    border-radius: 5px;
+    border-color: hotpink;
 }
 
 .imgButton :hover {
@@ -216,6 +219,7 @@ body {
     display: inline-block;
     position: relative;
     margin-left: 50px;
+    padding-top: 35px;
 }
 
 #drpdwn {
@@ -225,7 +229,7 @@ body {
 }
 
 .dropdown-content {
-    background-color: rgb(187, 160, 160);
+    background-color: rgb(175, 175, 175);
     display: none;
     position: absolute;
     width: 100%;
@@ -239,12 +243,12 @@ body {
 
 .dropdown-content a {
     display: block;
-    color: #f6f7e8;
+    color: #000000;
     padding: 5px;
     text-decoration: none;
 }
 
 .dropdown-content a:hover {
     color: #FFFFFF;
-    background-color: #00A4BD;
+    background-color: #0023bd;
 }
