@@ -1,7 +1,7 @@
 #body2 {
     display: flex;
     align-items: center;
-    background-image: url("./images/annie-spratt-EmHXM2YUd7Q-unsplash.jpg");
+    background-image: url("./images/background-z2.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 65px;
+    padding-top: 20px;
 }
 
 .active {
@@ -45,4 +46,50 @@
 
 .home1 {
     font-size: 50px;
+}
+
+.imgButton2 {
+    float: left;
+    margin-left: 131px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: hotpink;
+    padding-top: 10px;
+}
+
+.imgButton2 :hover {
+    opacity: 0.7;
+    color: rgb(122, 116, 61);
+}
+
+.imgButton3 {
+    float: left;
+    margin-left: 109px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: hotpink;
+    padding-top: 10px;
+}
+
+.imgButton3 :hover {
+    opacity: 0.7;
+    color: rgb(122, 116, 61);
+}
+
+.imgButton4 {
+    float: left;
+    margin-left: 88px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: hotpink;
+    padding-top: 10px;
+}
+
+.imgButton4 :hover {
+    opacity: 0.7;
+    color: rgb(122, 116, 61);
+}
+
+#imgCards-z {
+    padding-top: 80px;
 }

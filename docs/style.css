@@ -124,8 +124,9 @@ body {
     float: left;
     margin: 48px;
     cursor: pointer;
-    border-radius: 60px;
+    border-radius: 30px;
     border-color: hotpink;
+    padding-top: 10px;
 }
 
 .imgButton :hover {
