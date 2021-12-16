@@ -118,6 +118,9 @@ body {
     justify-content: space-between;
     align-items: baseline;
     padding-top: 25px;
+    min-width: min-content;
+    min-width: 500px;
+    display: 1000px;
 }
 
 .imgButton {

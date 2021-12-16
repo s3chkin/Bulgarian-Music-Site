@@ -78,7 +78,7 @@
 
 .imgButton4 {
     float: left;
-    margin-left: 88px;
+    margin-left: 125px;
     cursor: pointer;
     border-radius: 30px;
     border-color: hotpink;
@@ -92,4 +92,8 @@
 
 #imgCards-z {
     padding-top: 80px;
+}
+
+.form-check-1 {
+    float: left;
 }
