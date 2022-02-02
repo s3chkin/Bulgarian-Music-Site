@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    max-height: 100vh;
 }
 
 @media only screen and (max-width:800px) {
