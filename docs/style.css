@@ -42,7 +42,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url("./images/background5.png");
+    background-image: url("./images/background5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -62,33 +62,6 @@ body {
     min-width: 100%;
     align-items: center;
 }
-
-
-/* .navbar {
-    width: 88%;
-    margin: auto;
-    padding: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 30px;
-}
-
-.navbar-1:hover {
-    background-color: rgb(244, 246, 248);
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 
 .content {
     width: 100%;
@@ -346,10 +319,11 @@ body {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 8px;
-    border-color: hotpink;
+    border-color: #b87e47;
     padding-top: 10px;
     margin-left: 8px;
     cursor: default;
+    border-width: 4px;
 }
 
 .card:hover {

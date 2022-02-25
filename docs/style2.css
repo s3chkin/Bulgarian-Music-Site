@@ -25,7 +25,8 @@
 #body2 {
     display: flex;
     align-items: center;
-    background-image: url("./images/background-z2.jpg");
+    /* background-image: url("./images/background-z2.jpg"); */
+    background-image: url("./images/background5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -50,7 +51,8 @@
 #body3 {
     display: flex;
     align-items: center;
-    background-image: url("./images/annie-spratt-6TX15VUFWGA-unsplash.jpg");
+    /* background-image: url("./images/annie-spratt-6TX15VUFWGA-unsplash.jpg"); */
+    background-image: url("./images/background5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -62,7 +64,8 @@
 #body4 {
     display: flex;
     align-items: center;
-    background-image: url("./images/daniel-mirlea-I7BFheLFsjU-unsplash.jpg");
+    /* background-image: url("./images/daniel-mirlea-I7BFheLFsjU-unsplash.jpg"); */
+    background-image: url("./images/background5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -80,7 +83,7 @@
     margin-left: 131px;
     cursor: pointer;
     border-radius: 30px;
-    border-color: hotpink;
+    border-color: #b87e47;
     padding-top: 10px;
 }
 
@@ -123,4 +126,11 @@
 
 .form-check-1 {
     float: left;
+}
+
+#dropdownMenuButton {
+    background-color: rgb(148, 113, 67);
+    border-color: #b87e47;
+    border-style: groove;
+    border-width: 3px;
 }
