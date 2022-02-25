@@ -22,7 +22,11 @@
     <div class="hero">
         <div class="bd-example fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light text-light" style="background-color: #b87e47; font-size: 18px;" class="text-light">
-                <a class="navbar-brand" href="index.html">Bulgarian Music</a>
+                <h2 style="color: aliceblue;">
+                    <a class="navbar-brand" href="index.html" style="color: aliceblue;">
+                     Bulgarian Music
+                </a>
+                </h2>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Начало <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html" style="color: aliceblue;">Начало <span class="sr-only">(current)</span></a>
                         </li>
 
                         <!-- <li class="nav-item dropdown">
@@ -45,18 +49,18 @@
                             </div>
                         </li> -->
                         <li class="nav-item active">
-                            <a class="nav-link" href="album.html">Албум <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="album.html" style="color: aliceblue;">Албум <span class="sr-only">(current)</span></a>
                         </li>
 
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Контакти <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="contact.html" style="color: aliceblue;">Контакти <span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search movies..." aria-label="Search" id="search2" onchange="openPage2()" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: rgb(0, 0, 0); border-color: aquamarine;  ">Search</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Потърсете музика..." aria-label="Search" id="search2" onchange="openPage2()" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: rgb(0, 0, 0); border-color: aquamarine;  ">Търси</button>
                     </form>
                 </div>
             </nav>
@@ -82,15 +86,25 @@
 
 
 
+            <div class="drpdwns d-flex justify-content-center">
+                <div class="dropdown-z3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Изберете категория
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Поп Фолк</a>
+                        <a class="dropdown-item" href="#">Фолклор</a>
+                    </div>
+                </div>
 
-            <div class="dropdown d-flex justify-content-center">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Изберете категория 
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Поп Фолк</a>
-                    <a class="dropdown-item" href="#">Фолклор</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-z3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Изберете пол - (Ж)
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="mans.html">Мъж</a>
+                        <a class="dropdown-item" href="album.html">Женa</a>
+                    </div>
                 </div>
             </div>
         </div>
