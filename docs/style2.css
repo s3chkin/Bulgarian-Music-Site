@@ -40,11 +40,12 @@
     padding-top: 20px;
 }
 
-.active {
+
+/* .active {
     background-color: lightpink;
     opacity: 0.3;
     cursor: default;
-}
+} */
 
 #body3 {
     display: flex;
