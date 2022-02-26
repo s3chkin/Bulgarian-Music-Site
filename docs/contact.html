@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти</title>
+    <link rel="icon" href="./images/micIcon.png">
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -45,7 +47,7 @@
 
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="contact.html" style="color: aliceblue;">Контакти <span class="sr-only">(current)</span></a>
+                            <a class="nav-link disabled" aria-disabled="true" href="contact.html" style="color: aliceblue;">Контакти <span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -56,39 +58,41 @@
                 </div>
             </nav>
         </div>
-        <div style="padding-top: 85px;">
+        <div style="padding-top: 85px; ">
             <i>
-            <h1 align="center" id="contact-reklam">Изготвил: Сечкин Салим Рахим 11А клас.</h1>
+            <h1 align="center" id="contact-reklam" style="color: aliceblue;">Изготвил: Сечкин Салим Рахим 11А клас.</h1>
         </i>
             <i>
-            <h1 align="center" id="contact-reklam">Instagram: <a
+            <h1 align="center" id="contact-reklam" style="color: aliceblue;">Instagram: <a
                     href="https://www.instagram.com/__sechkin__/">instagram</a></h1>
         </i>
             <i>
-            <h1 align="center" id="contact-reklam">GitHub: <a href="https://github.com/s3chkin">GitHub</a></h1>
+            <h1 align="center" id="contact-reklam" style="color: aliceblue;">GitHub: <a href="https://github.com/s3chkin">GitHub</a></h1>
         </i>
         </div>
         <div id="contact">
-            <div id="contact-form">
-                <div id="boxes">
+            <center>
+                <div id="contact-form">
+                    <div id="boxes">
 
-                    <input type="text" id="text-box" placeholder="Собствено име">
-                    <input type="text" id="text-box" placeholder="Фамилно име">
-                    <input type="text" id="text-box" placeholder="E-mail">
-                </div>
-                <div id="message">
-                    <input type="text" id="text-box4" placeholder="Въведете съобщение">
-                </div>
+                        <input type="text" id="text-box" placeholder="Собствено име">
+                        <input type="text" id="text-box" placeholder="Фамилно име">
+                        <input type="text" id="text-box" placeholder="E-mail">
+                    </div>
+                    <div id="message">
+                        <input type="text" id="text-box4" placeholder="Въведете съобщение">
+                    </div>
 
-                <div id="button">
-                    <a href="contact.html">
-                        <main id="app">
-                            <button id="send-btn" onclick="alert(`Съобщението е изпратено!`)">
+                    <div id="button">
+                        <a href="contact.html">
+                            <main id="app">
+                                <button id="send-btn" onclick="alert(`Съобщението е изпратено!`)">
                                 Изпрати</button>
-                        </main>
-                    </a>
+                            </main>
+                        </a>
+                    </div>
                 </div>
-            </div>
+            </center>
         </div>
     </div>
 

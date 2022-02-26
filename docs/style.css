@@ -2,6 +2,7 @@
     box-sizing: border-box;
     max-height: 100vh;
     /* max-width: 1500vh; */
+    /* transition: ease-in-out 0.3s; */
 }
 
 #body2 {
@@ -159,16 +160,12 @@ body {
 }
 
 #contact-form {
-    background-color: rgb(255, 247, 248);
+    background-color: #e6cdb7;
     border-style: dotted;
     border-color: lightpink;
     border-width: 3px;
     width: 650px;
     height: 350px;
-    border-radius: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #contact {
@@ -181,10 +178,9 @@ body {
 }
 
 #text-box {
-    border-radius: 12px;
     width: 200px;
     height: 30px;
-    border-color: lightcoral;
+    border-color: rgb(255, 0, 0);
     border-width: 1.5px;
 }
 
@@ -195,16 +191,15 @@ body {
 }
 
 #text-box4 {
-    border-radius: 12px;
     height: 190px;
     width: 350px;
     border-width: 1.5px;
-    border-color: lightcoral;
+    border-color: rgb(252, 0, 0);
 }
 
 #message {
     padding-top: 50px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 #text-box4:hover {
@@ -214,7 +209,6 @@ body {
 }
 
 #send-btn {
-    border-radius: 20px;
     border-width: 1px;
     width: 100px;
     height: 30px;
@@ -222,7 +216,7 @@ body {
 
 #button {
     padding-top: 25px;
-    margin-left: 280px;
+    /* margin-left: 280px; */
 }
 
 .active #send-btn:hover {
@@ -327,8 +321,19 @@ body {
     color: aliceblue;
 }
 
+.disabled {
+    color: #140b02;
+    background-color: #b39880;
+}
+
+.nav-item:hover {
+    background-color: #b39880;
+    transition: ease-in-out 0.3s;
+}
+
 .card:hover {
-    background-color: #FFFFFF;
+    transition: ease-in-out 0.3s;
+    background-color: #cca179;
 }
 
 .card h2 {
