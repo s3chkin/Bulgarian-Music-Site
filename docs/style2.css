@@ -229,23 +229,58 @@
 }
 
 #icons {
-    margin-top: 80px;
+    margin-top: 40px;
+    /* margin-bottom: 35px; */
 }
 
-
-/* .container {
+.container {
     width: 100px;
     height: 100px;
-    /* background-color: rgb(219 218 193);
+    background-color: rgb(219 218 193);
     border-color: #ff7b00;
     border-style: groove;
-    border-width: 2px; 
-} */
-
-#container1 {
-    background-image: url("./images/note-png.png");
+    border-width: 2px;
+    display: grid;
+    place-items: center;
+    color: black;
 }
 
 .container:hover {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.699);
+}
+
+@media screen and (max-width:845px) {
+    .card-window {
+        width: 680px;
+        height: 555px;
+    }
+}
+
+@media screen and (max-width:707px) {
+    .card-window {
+        width: 570px;
+    }
+}
+
+
+/* =================================== */
+
+@media screen and (max-width:598px) {
+    .card-window {
+        width: 445px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .card-window {
+        width: 382px;
+        height: 615px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .card-window {
+        width: 310px;
+        height: 697px;
+    }
 }
