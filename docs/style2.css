@@ -175,3 +175,77 @@
         width: 100%;
     }
 }
+
+.card-window {
+    width: 800px;
+    height: 525px;
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: #b87e47;
+    cursor: default;
+    border-width: 3px;
+    color: aliceblue;
+    border-style: groove;
+}
+
+#headPhonesLogo {
+    background-color: #ddc0a5;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    border-color: #ff7b00;
+    border-style: groove;
+    border-width: 3px;
+}
+
+#downloadLogo {
+    background-color: #ddc0a5;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    border-color: #ff7b00;
+    border-style: groove;
+    border-width: 3px;
+    margin-left: 8px;
+}
+
+.bi-music-player,
+.bi-download {
+    font-size: 35px;
+    color: black;
+}
+
+#headPhones {
+    float: right;
+    margin: 25px;
+}
+
+#icons {
+    margin-top: 80px;
+}
+
+
+/* .container {
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(219 218 193);
+    border-color: #ff7b00;
+    border-style: groove;
+    border-width: 2px; 
+} */
+
+#container1 {
+    background-image: url("./images/note-png.png");
+}
+
+.container:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.699);
+}
