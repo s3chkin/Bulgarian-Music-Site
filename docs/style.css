@@ -281,7 +281,7 @@ body {
 
 .row {
     margin: 0 -5px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .row:after {
