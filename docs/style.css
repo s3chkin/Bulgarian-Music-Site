@@ -2,7 +2,7 @@
     box-sizing: border-box;
     max-height: 100vh;
     /* max-width: 1500vh; */
-    /* transition: ease-in-out 0.3s; */
+    transition: ease-in-out 0.2s;
 }
 
 #body2 {
