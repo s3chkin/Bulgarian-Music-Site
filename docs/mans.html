@@ -61,23 +61,22 @@
 
         <div class="drpdwns d-flex justify-content-center" style="margin-top: 85px;">
             <div class="dropdown-z3">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Изберете категория
-            </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item activeDropdown" href="#">Поп Фолк</a>
-                    <a class="dropdown-item" href="folklor.html">Фолклор</a>
-                </div>
+                <select onChange="window.location.href=this.value" type="button" id="dropdownMenuButton">
+                
+                <optgroup  label="Категория: ">
+                    <option  class="options" value="#">Поп Фолк</option>
+                    <option  value="folklor.html">Фолклор</option>
+                    </optgroup>
+                </select>
             </div>
 
             <div class="dropdown-z3">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Изберете пол - (М)
-            </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item activeDropdown" href="mans.html">Мъж</a>
-                    <a class="dropdown-item " href="album.html">Женa</a>
-                </div>
+                <select onChange="window.location.href=this.value" type="button" id="dropdownMenuButton">
+                    <optgroup   label="Пол: ">
+                        <option class="options" value="#">Мъж</option>
+                        <option value="album.html" >Жена</option>
+                    </optgroup>
+            </select>
             </div>
         </div>
 

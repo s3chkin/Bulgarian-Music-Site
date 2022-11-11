@@ -313,11 +313,11 @@ body {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 8px;
-    border-color: #b87e47;
+    border-color: #ffffff;
     padding-top: 10px;
     margin-left: 8px;
     cursor: default;
-    border-width: 4px;
+    border-width: 1px;
     color: aliceblue;
     margin-bottom: 25px;
 }

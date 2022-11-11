@@ -135,11 +135,19 @@
 }
 
 #dropdownMenuButton {
-    background-color: rgb(148, 113, 67);
-    border-color: #b87e47;
-    border-style: groove;
-    border-width: 3px;
-    /* margin-left: 15px; */
+    background-color: rgb(184 126 71);
+    ;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.options {
+    background-color: rgb(206, 163, 123);
 }
 
 .drpdwns {
@@ -151,7 +159,7 @@
 .dropdown-z3 {
     display: flex;
     float: left;
-    margin-right: 15px;
+    margin-right: 5px;
     width: 187px;
 }
 
